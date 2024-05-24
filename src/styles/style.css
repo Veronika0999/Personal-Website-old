@@ -153,8 +153,9 @@ nav ul li a:hover {
 }
 
 @media screen and (min-height: 700px){
-    .container{
-        flex-direction: row;
+    .container {
+        height: auto;
+        padding-top: 50px
     }
 }
 
