@@ -152,7 +152,7 @@ nav ul li a:hover {
     margin-right: 20px;
 }
 
-@media screen and (min-height: 696px){
+@media screen and (min-height: 700px){
     .container{
         flex-direction: row;
     }
