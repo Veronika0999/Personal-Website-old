@@ -306,9 +306,14 @@ display: none;
 }
 
 @media only screen and (max-width: 768px){
-      .language-switch {
+    .language-switch {
         display: none; 
     }
+
+    .mobileNav .language-switch {
+        display: grid;
+    }
+
   
   .navbar {
       display: none; 
