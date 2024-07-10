@@ -261,6 +261,10 @@ nav ul li a:hover {
         display: none; 
     }
 
+        .mobileNav .language-switch {
+        display: grid;
+    }
+
     
     .navbar {
         display: none; 
