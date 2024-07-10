@@ -36,3 +36,38 @@ function calculateWorkPeriod() {
 window.onload = function() {
     calculateWorkPeriod();
 };
+
+
+// Nastavení jazyka
+  function switchLanguage(lang) {
+    const elements = document.querySelectorAll('[data-en][data-cz]');
+    
+    elements.forEach(element => {
+      const text = element.getAttribute(`data-${lang}`);
+      if (text) {
+        element.innerHTML = text;
+      }
+    });
+  
+    // Uložení preference do localStorage
+    localStorage.setItem('preferredLanguage', lang);
+  
+    // Označení vybraného tlačítka
+    const buttons = document.querySelectorAll('.language-switch button');
+    buttons.forEach(button => {
+      if (button.getAttribute('onclick').includes(lang)) {
+        button.classList.add('selected'); 
+      } else {
+        button.classList.remove('selected');
+      }
+    });
+  }
+
+  
+  function loadLanguagePreference() {
+    const preferredLanguage = localStorage.getItem('preferredLanguage') || 'en'; 
+    switchLanguage(preferredLanguage);
+  }
+  
+  document.addEventListener('DOMContentLoaded', loadLanguagePreference);
+  
