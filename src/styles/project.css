@@ -246,6 +246,10 @@ p{
     .language-switch {
         display: none; 
 }
+
+    .mobileNav .language-switch {
+        display: grid;
+}
     
   .navbar {
       display: none; 
