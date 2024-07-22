@@ -221,6 +221,15 @@ p{
 
 
 /* Responsive web design */
+
+@media screen and (max-height: 690px){
+    h1 {
+        font-size: 20px;
+    }
+
+}
+
+
   
   @media screen and (max-width: 1135px) {
     .project {
