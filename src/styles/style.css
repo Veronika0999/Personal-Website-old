@@ -194,7 +194,7 @@ nav ul li a:hover {
 /* Responsive web design */
 
 
-@media screen and (max-height: 690px){
+@media screen and (max-height: 696px){
     .container {
         height: auto !important;
     }
