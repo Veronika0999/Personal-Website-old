@@ -205,8 +205,8 @@ nav ul li a:hover {
     }
 
     .container img {
-        max-height: 50%;
-        max-width: 50%;
+        max-height: 20%;
+        max-width: 20%;
     }
 }
 
