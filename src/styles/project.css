@@ -222,15 +222,14 @@ p{
 
 /* Responsive web design */
 
-@media screen and (max-height: 690px){
+@media screen and (max-height: 696px){
     h1 {
-        font-size: 20px;
+        font-size: 50px;
     }
 
 }
 
 
-  
   @media screen and (max-width: 1135px) {
     .project {
         width: calc(50% - 20px);
