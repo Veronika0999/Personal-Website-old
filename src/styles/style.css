@@ -196,8 +196,8 @@ nav ul li a:hover {
 
 @media screen and (max-height: 696px){
     .container {
-        max-height: 50%;
-        max-width: 50%;
+        max-height: 50px;
+        max-width: 50px;
     }
 
     h1 {
