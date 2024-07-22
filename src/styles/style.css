@@ -197,12 +197,16 @@ nav ul li a:hover {
 @media screen and (max-height: 690px){
     .container {
         height: auto;
-        padding-top: 50px
+        padding-bottom: 50px
     }
 
     h1 {
     font-size: 60px;
  }
+
+    .container img {
+        max-width: 40%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
