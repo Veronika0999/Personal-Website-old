@@ -196,14 +196,19 @@ nav ul li a:hover {
 
 @media screen and (max-height: 696px){
     .container {
-        max-height: 50px;
-        max-width: 50px;
+        height: auto !important;
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 60px !important;
     }
 
+    .container > img {
+        max-height: 50vh !important; /* Ensure the image height is responsive */
+        max-width: 50vw !important;  /* Ensure the image width is responsive */
+        height: auto;                /* Maintain aspect ratio */
+        width: auto;                 /* Maintain aspect ratio */
+    }
 }
 
 @media screen and (max-width: 1000px) {
