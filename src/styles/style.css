@@ -194,7 +194,7 @@ nav ul li a:hover {
 /* Responsive web design */
 
 
-@media screen and (max-height: 698px){
+@media screen and (max-height: 690px){
     .container {
         height: auto;
         padding-top: 50px
